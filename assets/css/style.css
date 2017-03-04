@@ -1,0 +1,41 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-image: url(../../assets/images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.content{
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 200px;
+}
+
+
+
+label, .test{
+	margin-top: 10px;
+}
+
+
+.data{
+	display: none;
+}
+
+.result{
+	display: none;
+}
+.result p{
+	padding: 10px;
+	border: 1px solid blue;
+	width: 300px;
+	border-radius: 4px;
+}
+
